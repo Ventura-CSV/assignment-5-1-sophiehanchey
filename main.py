@@ -1,20 +1,22 @@
+import random
 
 
-collectOddElm =  # make your code
-##################################################
-##################################################
+def sumoProduct(l1, l2):
+    ##################################################
+    # make your code
+    ##################################################
+    return sumP
 
-mylambda1 =  # make your code
-mylambda2 =  # make your code
+
+numbers1 = [5, 3, 1, 1, 2]
+numbers2 = [1, 2, 2, 9, 5]
+result = sumoProduct(numbers1, numbers2)
+print('Your result : ', result)
 
 
-##################################################
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print(numbers)
-# Figure out how it works
-print(mylambda1(numbers, collectOddElm))
-
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-print(numbers)
-# Figure out how it works
-print(mylambda2(numbers, collectOddElm))
+numbers1 = [random.randint(1, 10) for i in range(5)]
+numbers2 = [random.randint(1, 10) for i in range(5)]
+print('numbers 1 ', numbers1)
+print('numbers 2 ', numbers2)
+result = sumoProduct(numbers1, numbers2)
+print('Your result : ', result)
