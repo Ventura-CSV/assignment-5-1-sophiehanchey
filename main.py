@@ -2,9 +2,19 @@ import random
 
 
 def sumoProduct(l1, l2):
-    ##################################################
-    # make your code
-    ##################################################
+    prods = []
+    sum = 0
+    
+    while l1 and l2:
+        prods.append(l1[0]*l2[0])
+        
+        del l1[0]
+        del l2[0]
+        
+    for i in range(len(prods)):
+        sum += prods[i]
+        
+    return sum
 
 
 numbers1 = [5, 3, 1, 1, 2]
